@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: black;
+  .slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .slide1 {
+    background: url("https://www.sprite.com/content/dam/sprite2016/2019/thirst-for-yours/products/sprite-zero-cherry/desktop/sprite_cherry_zero_featurecan.jpg");
+    background-attachment: fixed;
+    background-position: center;
+
+    background-repeat: no-repeat;
+  }
+  .slide2 {
+    background: url("https://www.sprite.com/content/dam/sprite2016/2019/thirst-for-yours/products/sprite/desktop/base_featurecan.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    left: 50%;
+    background-repeat: no-repeat;
+  }
+}
