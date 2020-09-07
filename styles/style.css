@@ -5,34 +5,49 @@
           box-sizing: border-box;
 }
 
-.container {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  background-color: black;
+body {
+  background: black;
 }
 
-.container .slide {
+.sec1 {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sec1 h2 {
+  position: relative;
+  color: #fff;
+  font-size: 12em;
+}
+
+.sec1 img {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
-.container .slide1 {
-  background: url("https://www.sprite.com/content/dam/sprite2016/2019/thirst-for-yours/products/sprite-zero-cherry/desktop/sprite_cherry_zero_featurecan.jpg");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
+.sec2 {
+  position: relative;
+  width: 100%;
 }
 
-.container .slide2 {
-  background: url("https://www.sprite.com/content/dam/sprite2016/2019/thirst-for-yours/products/sprite/desktop/base_featurecan.jpg");
-  background-attachment: fixed;
-  background-position: center;
-  left: 50%;
-  background-repeat: no-repeat;
+.sec2 h1 {
+  color: white;
+  font-size: 9em;
 }
 /*# sourceMappingURL=style.css.map */
